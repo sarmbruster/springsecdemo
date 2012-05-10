@@ -1,0 +1,14 @@
+*.iws
+*.ipr
+*.iml
+.classpath
+.DS_Store
+.project
+.settings
+*.launch
+*.tmproj
+*.log
+test/reports
+target
+log
+logs
