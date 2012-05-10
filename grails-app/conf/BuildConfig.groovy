@@ -48,5 +48,11 @@ grails.project.dependency.resolution = {
 
         build ":tomcat:$grailsVersion"
         runtime ":spring-security-core:1.2.7.3"
+        runtime ":spring-security-ui:0.2"
+
+        // implicit dependencies for spring-security-ui
+        runtime ":mail:1.0"
+        runtime ":jquery-ui:1.8.15"
+        runtime ":famfamfam:1.0.1"
     }
 }
